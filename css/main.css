@@ -1,0 +1,69 @@
+#header {
+    height: 200px;
+    background: grey;
+    background-image: url("https://qph.fs.quoracdn.net/main-qimg-7d359cf53bfc6cb370cc7d9381b2d445");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#header-text {
+    font-size: 28px;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#email-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.centre {
+    text-align: center;
+}
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background: #B7B7B7;
+    color: white;
+    margin: 32px;
+    padding: 8px;
+}
+
+.container .title {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.container .content {
+    margin-top: 5px;
+}
+
+input {
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #B7B7B7;
+    height: 33px;
+}
+
+.submit {
+    background-color: #B7B7B7;
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+    width: 100px;
+    height: 33px;
+    padding: 8px;
+}

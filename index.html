@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Lead Tech Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <script src="/js/app.js"></script>
+  </head>
+  <body>
+    
+    <div id="header">
+      <div id="header-text" class="centre">
+	Lorem ipsum
+      </div>
+    </div>
+    
+    <p class="centre"> Lorem Ipsum </p>
+
+    <div id="email-form-container">
+
+   
+	<div id="step1">
+	  <input type="text" id="email" name="email" placeholder="Email Address">
+	  <button class="submit" onClick="showStep(1)">Submit</button>
+	</div>
+
+	<div id="step2">
+	  <input type="text" id="name"  placeholder="Name">
+	  <input type="text" id="postcode" placeholder="Postcode">
+
+	  <button class="submit" onClick="showStep(2)">Submit</button>
+	</div>
+
+	<div id="step3">
+	  Thank You!
+	  <p id="emailDisplay" />
+	  <p id="nameDisplay" />
+	  <p id="postcodeDisplay" />
+	</div>
+
+    </div>
+    
+    <div class="containers"> 
+      <div class="container">
+	<div class="title"> Lorem Ipsum </div>
+	<div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </div>
+      </div>
+
+      <div class="container">
+	<div class="title"> Lorem Ipsum </div>
+	<div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </div>
+      </div>
+
+      <div class="container">
+	<div class="title"> Lorem Ipsum </div>
+	<div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    showStep(0)
+    </script>
+</html>
